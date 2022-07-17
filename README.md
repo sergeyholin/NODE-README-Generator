@@ -5,11 +5,11 @@ GitHub Repo Link: https://github.com/sergeyholin/NODE-README-Generator
 
 GitHub Live Deployment Link: https://sergeyholin.github.io/NODE-README-Generator/
 
-Vide Demo Link: https://drive.google.com/file/d/1pxQEscFJ-o-u4O-mvYCQeQiPDf-eNuTj/view
+Video Demo Link: https://drive.google.com/file/d/1pxQEscFJ-o-u4O-mvYCQeQiPDf-eNuTj/view
 
 ## ABOUT THE APP:
 
-This application allows a user to generated Mark Down README file using NODE and predetermined question format/structure.
+This application allows a user to generate Mark Down README file using NODE and predetermined question format/structure.
 
 ## ACCEPTANCE CRITERIA:
 
