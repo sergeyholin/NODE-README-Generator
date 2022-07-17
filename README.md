@@ -1,5 +1,5 @@
 # NODE README Generator
-Module 9 Challenges by Sergey Holin
+Module 9 Challenge by Sergey Holin
 
 GitHub Repo Link: https://github.com/sergeyholin/NODE-README-Generator
 
