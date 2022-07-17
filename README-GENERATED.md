@@ -1,8 +1,10 @@
-# Title: ${data.title}
+
+### License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT), (https://opensource.org/licenses/MIT)
+# Title: 111
 
 ## Description:
 
-${data.description}
+222
 
 ## Table of Contents:
 
@@ -26,30 +28,30 @@ ${data.description}
 
 ## Installation
 
-${data.installation}
+333
 
 ## Usage:
 
-${data.usage}
+444
 
 ## Licensing:
 
-${data.license}
+This application is covered under MIT License.
 
 ## Contributing:
 
-${data.contributing}
+555
 
 ## Testing Instructions:
 
-${testing}
+666
 
 ## Questions:
 
-${data.questions}
+777
 
 Contact Me:
 
-GitHub: ${data.github}
+GitHub: sergeyholin
 
-Email: ${data.email}
+Email: 1@1.com
