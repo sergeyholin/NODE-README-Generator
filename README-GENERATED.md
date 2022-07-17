@@ -1,10 +1,10 @@
 
 ### License: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT), (https://opensource.org/licenses/MIT)
-# Title: 111
+# Title: NODE README Generator
 
 ## Description:
 
-222
+This application allows a user to generated Mark Down README file using NODE and predetermined question format/structure.
 
 ## Table of Contents:
 
@@ -28,11 +28,11 @@
 
 ## Installation
 
-333
+To make this application work, user have to install inquirer module version 6.5.0. To do so, open index.js in VSC Integrated Terminal and type (without quotation marks): "npm init -y" ; then type (without quotation marks): "npm inquirer@6.5.0".
 
 ## Usage:
 
-444
+To use this app, open index.js useing VSC Integrated Terminal and type (without quotation marks): "node index.js", and follow all the prompts. After all the questions have been answered, the app will generate new md file called README-GENERATED.
 
 ## Licensing:
 
@@ -40,18 +40,18 @@ This application is covered under MIT License.
 
 ## Contributing:
 
-555
+If you would like to contribute to this project, feel free to reach out to me via GitHub or email (both provided in section Questions).
 
 ## Testing Instructions:
 
-666
+All tested is done through VSC Integrated Terminal. If you find any errors, please let me know.
 
 ## Questions:
 
-777
+If you have any questions, suggestions, or concerns, feel free to contact me at:
 
 Contact Me:
 
-GitHub: sergeyholin
+GitHub: https://github.com/sergeyholin
 
-Email: 1@1.com
+Email: me@gmail.com

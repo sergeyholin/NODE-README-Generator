@@ -3,6 +3,7 @@ const fs = require('fs');
 
 inquirer
   .prompt([
+    // Questions
     {
       type: 'input',
       message: 'What is the title of this project?',
@@ -20,7 +21,7 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Usage Instructions.',
+        message: 'Enter usage instructions.',
         name: 'usage',
       },
       {
@@ -31,17 +32,17 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Instructions for contributing.',
+        message: 'Enter instructions for contributing.',
         name: 'contributing',
       },
       {
         type: 'input',
-        message: 'Test instructions',
+        message: 'Enter test instructions',
         name: 'testing',
       },
       {
         type: 'input',
-        message: 'Enter questions',
+        message: 'Enter questions information',
         name: 'questions',
       },
       {
@@ -59,14 +60,12 @@ inquirer
 
   .then((data) => {
 console.log(data)
-
+// This line of code creates Readme.md
 fs.writeFile('README-GENERATED.md', (createReadme(data)), (err) =>
 err ? console.log(err) : console.log("Success!")
 )
   });
-
-  
-  
+// This function picks a license badge
   function renderLicenseBadge(data) {
     let licenseType = `${data.license}`
     let licenseChosen = ''
@@ -79,7 +78,7 @@ err ? console.log(err) : console.log("Success!")
     } 
     return licenseChosen;
   };
-
+// This function displays license info link
   function renderLicenseLink(data) {
     let licenseType = `${data.license}`
     let licenseChosen = ''
@@ -92,7 +91,7 @@ err ? console.log(err) : console.log("Success!")
     } 
     return licenseChosen;
   };
-
+// This function displays under which license app is covered in license section
   function renderLicenseSection(data) {
     let licenseType = `${data.license}`
     let licenseChosen = ''
@@ -105,11 +104,7 @@ err ? console.log(err) : console.log("Success!")
     } 
     return licenseChosen;
   }
-   
-  
-
-
-
+//This function populated Readme with data  
 function createReadme(data) {
   return  `
 ### License: ${renderLicenseBadge(data)}, ${renderLicenseLink(data)}
